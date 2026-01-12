@@ -53,7 +53,7 @@ function App() {
         ) : (
           <Navigate to={!isAuthenticated ? "/login" : "/onboarding"}/>
         )}/>
-        
+
         
         <Route
           path="/onboarding"
